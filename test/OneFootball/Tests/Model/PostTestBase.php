@@ -14,7 +14,7 @@ class PostTestBase extends TestBase
           $client,
           [
             'external_id' => 'FN2',
-            'site_id' => '12',
+            'integration_id' => '310',
             'source_url' => 'https://www.fussball.news/FN2',
             'language' => 'de',
             'draft' => true,

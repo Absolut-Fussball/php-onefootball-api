@@ -29,7 +29,7 @@ class PostTest extends TestBase
           $client,
           [
             'external_id' => 'FN2',
-            'integration_id' => 6,
+            'integration_id' => 310,
             'source_url' => 'https://www.fussball.news/FN1',
             'language' => 'de',
             'published' => "2010-01-02T15:04:05Z",
@@ -88,7 +88,7 @@ class PostTest extends TestBase
             'id' => '9269',
             'modified' => "2010-01-02T15:04:05Z",
             'external_id' => 'FN2',
-            'integration_id' => 6,
+            'integration_id' => 310,
             'source_url' => 'https://www.fussball.news/FN1',
             'language' => 'de',
             'published' => "2010-01-02T15:04:05Z",
@@ -132,7 +132,7 @@ class PostTest extends TestBase
           [
             'modified' => "2010-01-02T15:04:05Z",
             'external_id' => 'FN2',
-            'integration_id' => 6,
+            'integration_id' => 310,
             'source_url' => 'https://www.fussball.news/FN1',
             'language' => 'de',
             'published' => "2010-01-02T15:04:05Z",

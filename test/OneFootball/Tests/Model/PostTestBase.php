@@ -17,6 +17,7 @@ class PostTestBase extends TestBase
             'site_id' => '12',
             'source_url' => 'https://www.fussball.news/FN2',
             'language' => 'de',
+            'draft' => true,
             'published' => 1,
             'title' => 'Title',
             'content' => '<div>Content</div>',

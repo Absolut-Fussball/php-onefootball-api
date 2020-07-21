@@ -15,7 +15,7 @@ abstract class TestBase extends TestCase
 
     protected $mockHttpClient;
 
-    private $mock = true;
+    private $mock = false;
 
     private $url;
 
@@ -39,7 +39,7 @@ abstract class TestBase extends TestCase
 
     public function setUp()
     {
-        $this->url = 'https://creators-network-api-stg.onefootball.com';
+        $this->url = 'https://network-api.onefootball.com';
     }
 
     protected function getHttpClient($responses = [])

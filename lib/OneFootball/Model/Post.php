@@ -8,6 +8,7 @@ use OneFootball\Client;
  * Class Post
  *
  * @property-read string $external_id
+ * @property-read string $draft
  * @property-read string $integration_id
  * @property-read string $source_url
  * @property-read string $published
@@ -29,6 +30,7 @@ class Post extends AbstractModel
         "integration_id",
         "source_url",
         "language",
+        "draft",
         "published",
         "content",
         "modified",

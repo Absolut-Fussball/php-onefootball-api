@@ -74,7 +74,7 @@ class Post extends AbstractApi
           ['external_id' => $external_id]
         );
         $post = current($response->posts);
-        return $post !== null ? $post->id : null;
+        return $post != null ? $post->id : null;
     }
 
     /**
